@@ -9,12 +9,11 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 public class Parser {
-    // コンストラクタでURLを指定するので、private
-    @SuppressWarnings("unused")
-    private Parser() {
-    };
+    // unused
+    private Parser() {};
 
     protected Document document = null;
+
     public Parser(String url) throws IOException {
         this.document = Jsoup.connect(url).get();
     }

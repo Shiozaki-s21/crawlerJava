@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22353625-3f63-4882-b9f3-185c21de092c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/main/crawler/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/crawler/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/crawler/MyCrawler.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/crawler/MyCrawler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/crawler/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/crawler/AppTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler.iml" beforeDir="false" afterPath="$PROJECT_DIR$/crawler.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/crawler/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/crawler/Parser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/crawler/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawler/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/crawler/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/crawler/MyCrawler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crawler/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawler/Parser.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/default/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -68,8 +62,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/crawler/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+            <state relative-caret-position="425">
+              <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/crawler/Parser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state relative-caret-position="213">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,6 +108,7 @@
     <findStrings>
       <find>set</find>
       <find>Er</find>
+      <find>min</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -189,7 +187,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548374489216" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548451509273" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -302,7 +300,7 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25645757" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25645757" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -310,14 +308,14 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.499385" visible="true" weight="0.3295099" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49630997" weight="0.3295099" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.499385" weight="0.3295099" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49569497" visible="true" weight="0.3295099" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.57749075" weight="0.3295099" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.500615" side_tool="true" visible="true" weight="0.3295099" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.57687575" weight="0.3295099" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50430506" side_tool="true" visible="true" weight="0.3295099" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" sideWeight="0.499385" weight="0.3295099" />
       <window_info active="true" anchor="bottom" id="Messages" order="11" sideWeight="0.499385" visible="true" weight="0.3295099" />
@@ -414,10 +412,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/stream/IntStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="444" column="10" selection-start-line="444" selection-start-column="10" selection-end-line="444" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/stream/Collectors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="228" column="29" selection-start-line="228" selection-start-column="29" selection-end-line="228" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="1250" column="22" selection-start-line="1250" selection-start-column="22" selection-end-line="1250" selection-end-column="22" />
+          <folding>
+            <element signature="e#49043#49044#0" expanded="true" />
+            <element signature="e#49082#49083#0" expanded="true" />
+            <element signature="e#52232#52233#0" expanded="true" />
+            <element signature="e#52271#52272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="1575" column="23" selection-start-line="1575" selection-start-column="23" selection-end-line="1575" selection-end-column="23" />
+          <folding>
+            <element signature="e#46394#46395#0" expanded="true" />
+            <element signature="e#46458#46459#0" expanded="true" />
+            <element signature="e#60191#60192#0" expanded="true" />
+            <element signature="e#60228#60229#0" expanded="true" />
+            <element signature="e#60595#60596#0" expanded="true" />
+            <element signature="e#60632#60633#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="486" column="36" selection-start-line="486" selection-start-column="36" selection-end-line="486" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/crawler/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        <state relative-caret-position="213">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -426,8 +473,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/crawler/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+        <state relative-caret-position="425">
+          <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
