@@ -29,6 +29,8 @@ dependencies {
 
     // Use Crawler
     implementation group: 'edu.uci.ics', name: 'crawler4j', version: '4.4.0'
+    implementation 'org.jsoup:jsoup:1.11.3'
+
 }
 
 // startScript

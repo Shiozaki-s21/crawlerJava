@@ -8,24 +8,17 @@
 
 package crawler;
 
-import com.example.crawler.crawler.MyCrawler;
-
-import edu.uci.ics.crawler4j.crawler.Page;
-import edu.uci.ics.crawler4j.url.WebURL;
-import edu.uci.ics.crawler4j.crawler.WebCrawler;
-import edu.uci.ics.crawler4j.parser.HtmlParseData;
+import java.util.ArrayList;
 
 public class App {
-    public String getGreeting() {
-        return "Done";
+    public static void main(String[] args) throws Exception {
+        ArrayList<String> priceList =
+                new Parser("https://vancouver.craigslist.org/search/sss?query=playstation+4+pro&sort=rel")
+                        .getElementsByClass("result-price");
+
+        for (String price: priceList) {
+            System.out.println(price);
+        }
     }
 
-    public static void main(String[] args) {
-        MyCrawler myCrawler = new MyCrawler();
-        WebURL webURL = new WebURL();
-        webURL.setURL("https://vancouver.craigslist.org");
-        Page page = new Page(webURL);
-        myCrawler.visit(page);
-        System.out.println(new App().getGreeting());
-    }
 }
