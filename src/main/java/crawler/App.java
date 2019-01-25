@@ -27,8 +27,8 @@ public class App {
         int max = prices.stream().max(Integer::compareTo).get();
         Double ave = prices.stream().flatMapToInt(price -> IntStream.of(price)).average().getAsDouble();
 
-        System.out.println("min" + min);
-        System.out.println("max" + max);
-        System.out.println("ave" + ave);
+        System.out.println("min price" + min);
+        System.out.println("max price" + max);
+        System.out.println("ave price" + ave);
     }
 }
